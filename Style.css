@@ -1,0 +1,45 @@
+   * {
+       margin: 0;
+       padding: 0;
+   }
+   body {
+       background-image: url("images/1.jpg");
+       background-size: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: scroll;
+       /* height: 100vh; */
+       z-index: -1;
+   }
+   .bgMain{
+    height: 100vh;
+    background-color: #ffffff82;
+   }
+.content{
+    position: absolute;
+        top: 50%;
+        right: 0%;
+        left: 0%;
+        bottom: 0%;
+}
+.pColor{
+color: #273B84;
+}
+.sColor {
+    color: #E88B25;
+}
+
+.TARFIH{
+    font-size: 100px;
+}
+.btn_duration {
+    background-color: #273B84;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 990px) {
+.sDiv2 {
+        font-size: 50px;
+    }
+        
+}
